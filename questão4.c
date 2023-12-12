@@ -5,9 +5,9 @@
 struct ContaDoBanco
 {
     int numeroConta;
-    char nomeTitular[250];
+    char nomeTitular[777];
     float saldo;
-    char tipoConta[200];
+    char tipoConta[777];
 };
 
 void depositar(struct ContaDoBanco *conta, float valor)
