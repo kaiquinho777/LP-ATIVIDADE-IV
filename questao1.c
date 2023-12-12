@@ -5,9 +5,9 @@
 #define TAM 3
 struct agenda
 {
-    char nome[250];
-    char numero[250];
-    char gmail[250];
+    char nome[777];
+    char numero[777];
+    char gmail[777];
 };
 char *buscarContato(struct agenda contato[], char *escolha)
 {
